@@ -1,0 +1,30 @@
+
+body{
+
+	background-color: white;
+}
+
+h1{
+	color:orange;
+
+}
+
+	p{
+		color:gray;
+	}
+	
+
+
+.box{
+	
+	background-image: url(camera.png);
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+
+	
+	
+}
+
+
+
