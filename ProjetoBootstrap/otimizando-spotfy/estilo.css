@@ -1,0 +1,12 @@
+/*
+Exemplo de media queries
+@media screen and (max-width: 767px) {
+	body{
+		background: red;
+	}*/
+.item{
+	width: 200px;
+	height: 200px;
+	border:2px solid black;
+	overflow: auto;
+}
