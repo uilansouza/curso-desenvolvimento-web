@@ -165,8 +165,39 @@ h1{
 
 /*Media queries */
 /*xs <768 */
-@media screen and ()
+@media screen and (max-width: 767px){
+	h1{
+		font-size: 50px;
+	}
+	.btn-custom{
+		margin: 10px 15px;
+	}
 
+}
+/*sm */
+@media screen and (min-width: 768px){
+	h1{
+		font-size: 70px;
+	}
+
+}
+
+/*md */
+@media screen and (min-width: 992px){
+	h1{
+		font-size: 80px;
+	}
+
+}
+
+/*lg */
+@media screen and (min-width: 1200px){
+	h1{
+		font-size: 100px;
+	}
+
+}
+/* Fim media queries*/
 
 h2{
 	font-size: 50px;
