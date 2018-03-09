@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+
+		<!-- bootstrap - link cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<script language='Javascript'>
+			function iniciaJogo(){
+				var nivel_jogo =document.getElementById('nivel_jogo').value;
+				window.location.href = 'jogo.html?'+nivel_jogo; //poderia usa um for mas como estamos usando javascript usamos esse
+
+				alert(nivel_jogo);
+
+			}
+			
+		</script>
+	</head>
+
+	<body>
+		<div>
+			<p>
+				<b>Nivel: </b>
+				<select id="nivel_jogo">
+					<option value="1">Facil</option>
+					<option value="2">Normal</option>
+					<option value="3">Dificil</option>
+				</select>
+				<div style="margin-left: 10px;" ><h3>Quantidade de balões:</h3>
+
+			</p>
+
+			</div>
+				<form  >
+					<div  class="form-group col-md-4">
+                             <input id="qtd_baloes" type="text" class="form-control" id="qtd" name="qtd" placeholder ="Digite a quantidade de Balões" style ="font-weight: 700; color:blue;"">
+                    </div>
+					
+				</form>
+			<br>
+			<div  style="clear:both; margin-left: 5px; ">
+			<img  src="imagens/iniciar.png" onclick="iniciaJogo();"/>
+			</div>
+		</div>
+
+	</body>
+	
+</html>

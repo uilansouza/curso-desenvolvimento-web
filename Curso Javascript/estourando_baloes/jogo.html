@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+		<script src="jogo.js"></script>
+		<!-- bootstrap - link cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	</head>
+
+	<body onload="iniciaJogo(); ">
+		<div style="float:left; width:auto; height: 500px; background:#FFF;
+		border:solid 1px  #A2A2A2; margin-right: 10px; ">
+
+			<table >
+				<tr>
+					<td>
+						<img src="imagens/balao_azul_grande.png"/>
+					</td>
+					 <td>
+						<span id="baloes_inteiros" style="font-size: 40px;"></span>
+					</td>
+				</tr>	
+				
+			</table>
+			<br>
+
+			<table >
+				<tr>
+					<td>
+						<img src="imagens/balao_azul_grande_estourado.png"/>
+					</td>
+					 <td>
+						<span id="baloes_estourados" style="font-size: 40px;"></span>
+					</td>
+				</tr>	
+				
+			</table>
+
+			<table  style="width: 140px; height: 132px;">
+				<tr>
+					<td style="background: url('imagens/cronometro.png'); text-align: center;">
+						<span id="cronometro" style="color:red; font-size: 30px;"></span>
+						
+					</td>
+				</tr>	
+				
+			</table>
+		</div>
+
+		<div  id="cenario" style="float:left; width:600px; height: 500px; background: url('imagens/cenario.png'); background-position:bottom; ">
+			
+		</div>
+
+		<div   style=" clear:both; margin-top: 10px; margin-left:400px; " class="col-sm-12" >
+			<a href="index.html"><button href="index.html" style="align-self: 10px;" class="btn btn-primary " >Voltar</button></a>
+		</div>
+
+	</body>
+	
+</html>
