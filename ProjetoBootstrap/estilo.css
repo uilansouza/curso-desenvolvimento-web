@@ -7,3 +7,20 @@
 	background:#5bf946;
 	border:1px solid #36ae26;
 }
+
+
+.borda {
+	border: 1px solid black;
+}
+
+li{ 
+	padding-left: 10px;
+	
+}
+
+.caixa{
+		background: #81DAF5;
+		
+		color:#FFFFFF;
+		border: 1px solid black;
+	}

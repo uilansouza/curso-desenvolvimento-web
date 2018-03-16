@@ -1,0 +1,17 @@
+.formatacao{
+	border: 1px solid gray;
+	width: 100px;
+	height: 100px
+	color: red;
+	text-align: center;
+	margin: 10px;
+	border-radius: 100px;
+
+}
+.caixa{
+		background: #1e6f44;
+		width: 100px;
+		height: 100px;
+		color:#FFFFFF;
+		border: 1px solid black;
+	}
